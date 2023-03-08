@@ -1,0 +1,32 @@
+.ant-table-tbody > tr > td, .ant-table-thead > tr > th
+{
+    padding:15px 8px;    
+    border: 1px solid #cddaf4;
+}
+tr:nth-child(odd){ 
+    background: white;
+}
+tr:nth-child(even){
+    background: white;
+}
+thead[class*="ant-table-thead"] th{
+    background-color:#c2deff !important;
+    color: white;
+    font-weight: bold;
+    border-color: #cddaf4;
+    text-align: center !important;
+    padding: 15px 0 !important;
+  }
+.table_btn
+{
+    margin:0 !important;
+}
+.ant-btn
+{
+    margin:0;
+}
+.ant-table-tbody > tr:hover > td  {
+    cursor: pointer;
+    background-color: rgb(237, 243, 255) !important;
+    transition: all 0.3s ease 0s !important
+}
